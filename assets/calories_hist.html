@@ -1,9 +1,0 @@
-import plotly.express as px
-
-fig_hist = px.histogram(
-    merged_df.query("calories.between(0, 2000)"),
-    x="calories",
-    nbins=60,
-    title="Distribution of Calories"
-)
-fig_hist.write_html("assets/calories_hist.html", include_plotlyjs="cdn")
