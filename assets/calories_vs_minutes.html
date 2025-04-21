@@ -1,8 +1,0 @@
-fig_scatter = px.scatter(
-    merged_df.query("calories.between(0, 2000)"),
-    x="minutes",
-    y="calories",
-    trendline="ols",
-    title="Calories vs. Preparation Time"
-)
-fig_scatter.write_html("assets/calories_vs_minutes.html", include_plotlyjs="cdn")
