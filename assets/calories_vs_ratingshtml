@@ -1,0 +1,16 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calories vs. Rating</title>
+</head>
+<body>
+  <h2>Do Higher-Calorie Recipes Receive Better Ratings?</h2>
+  <img src="assets/calories_vs_rating.png" alt="Calories vs Rating" width="700">
+  <p>
+    This scatterplot investigates the relationship between calorie count and user rating.
+    Despite the wide range of calories (0–2000 kcal), ratings remain consistently high — clustering around 4.5 stars.
+    The trendline confirms there is no strong correlation. This suggests that users rate recipes based more on taste or satisfaction than on nutritional content.
+  </p>
+</body>
+</html>
