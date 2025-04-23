@@ -5,10 +5,10 @@ title: Predicting Calories from Online Recipes
 
 ## Introduction
 
-This project analyzes the **Recipes and Ratings** dataset to explore how recipe characteristics (e.g., prep time, ingredient count) influence **calories**. We aim to build a regression model that predicts calorie content based solely on features a user would see before cooking.
+This project analyzes the **Recipes and Ratings** dataset to explore how recipe characteristics (e.g., prep time, ingredient count) influence **calories**. I built a regression model that predicts calorie content based solely on features a user would see before cooking.
 
 **Name:** Alyssa Rodriguez  
-**Email:** alyssa@umich.edu  
+**Email:** alyssrod@umich.edu  
 
 ---
 
@@ -36,10 +36,10 @@ This table groups recipes by number of ingredients and shows their average calor
 
 ## Framing a Prediction Problem
 
-We treat this as a **regression** problem: calories are a continuous value with meaningful differences (e.g., 300 vs 900 kcal).  
+I treated this as a **regression** problem: calories are a continuous value with meaningful differences (e.g., 300 vs 900 kcal).  
 **Target Variable:** `calories`  
 **Metric:** RMSE (Root Mean Squared Error)  
-We only use features known at “time of prediction” — prep time, ingredient count, tag length, etc.
+I only used features known at “time of prediction” — prep time, ingredient count, tag length, etc.
 
 ---
 
